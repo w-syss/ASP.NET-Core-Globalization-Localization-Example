@@ -2,7 +2,18 @@
     ViewData["Title"] = "Home Page";
 }
 
+@section Scripts
+{
+    <partial name="_ValidationScriptsPartial" />
+}
+
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <div class="row">
+        <div class="col-12">
+            <partial name="_SelectLanguagePartial" />
+        </div>
+    </div>
+    <div class="row">
+
+    </div>
 </div>
