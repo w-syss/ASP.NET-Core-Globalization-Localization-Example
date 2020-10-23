@@ -1,0 +1,15 @@
+{
+  "version": "1.0",
+  "defaultProvider": "jsdelivr",
+  "libraries": [
+    {
+      "library": "cldrjs@0.5.5",
+      "destination": "wwwroot/lib/cldrjs/"
+    },
+    {
+      "provider": "cdnjs",
+      "library": "globalize@1.6.0",
+      "destination": "wwwroot/lib/globalize/"
+    }
+  ]
+}
