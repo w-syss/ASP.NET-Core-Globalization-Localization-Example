@@ -1,6 +1,11 @@
-﻿@{
+﻿@using Microsoft.AspNetCore.Mvc.Localization
+
+@{
     ViewData["Title"] = "Home Page";
 }
+
+@inject IViewLocalizer Localizer
+@model IndexModel
 
 @section Scripts
 {
@@ -12,8 +17,22 @@
         <div class="col-12">
             <partial name="_SelectLanguagePartial" />
         </div>
-    </div>
-    <div class="row">
+    </div>    
+    <form class="row">        
+        <div class="col-6">
+            <div class="form-group">
+                <label asp-for="DateInput">@Localizer["Date input"]</label>
+                <input asp-for="DateInput" class="form-control" />
+                <span asp-validation-for="DateInput" class="text-danger"></span>
+            </div>
+        </div>
 
-    </div>
+        <div class="col-6">
+            <div class="form-group">
+                <label asp-for="CurrencyInput">@Localizer["Currency input"]</label>
+                <input asp-for="CurrencyInput" class="form-control" />
+                <span asp-validation-for="CurrencyInput" class="text-danger"></span>
+            </div>
+        </div>
+    </form>
 </div>
