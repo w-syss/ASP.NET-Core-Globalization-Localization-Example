@@ -10,6 +10,34 @@
       "provider": "cdnjs",
       "library": "globalize@1.6.0",
       "destination": "wwwroot/lib/globalize/"
+    },
+    {
+      "library": "cldr-dates-modern@37.0.0",
+      "destination": "wwwroot/cldr-data/cldr-dates-modern/",
+      "files": [
+        "main/de/ca-generic.json",
+        "main/de/ca-gregorian.json",
+        "main/de/dateFields.json",
+        "main/de/timeZoneNames.json",
+        "main/en/ca-generic.json",
+        "main/en/ca-gregorian.json",
+        "main/en/dateFields.json",
+        "main/en/timeZoneNames.json"
+      ]
+    },
+    {
+      "library": "cldr-core@37.0.0",
+      "destination": "wwwroot/cldr-data/cldr-core/"
+    },
+    {
+      "library": "cldr-numbers-modern@37.0.0",
+      "destination": "wwwroot/cldr-data/cldr-numbers-modern/",
+      "files": [
+        "main/de/currencies.json",
+        "main/de/numbers.json",
+        "main/en/currencies.json",
+        "main/en/numbers.json"
+      ]
     }
   ]
 }
