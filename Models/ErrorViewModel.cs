@@ -1,5 +1,3 @@
-using System;
-
 namespace ASPNETCoreGlobalizationExample.Models
 {
     public class ErrorViewModel

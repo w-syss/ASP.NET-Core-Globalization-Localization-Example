@@ -1,13 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using ASPNETCoreGlobalizationExample.Models;
+using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Localization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using ASPNETCoreGlobalizationExample.Models;
-using Microsoft.AspNetCore.Localization;
-using Microsoft.AspNetCore.Http;
+using System;
+using System.Diagnostics;
 
 namespace ASPNETCoreGlobalizationExample.Controllers
 {
